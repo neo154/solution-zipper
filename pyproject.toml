@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'solution_zipper'
+version = '1.0.0'
+authors = [
+  {name = "neo154"}
+]
+requires-python = ">= 3.12"
+dependencies = ['pyzipper==0.3.6']
+description = "Simple solution zipper for challenges"
+license.text = "MIT"
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.scripts]
+zip_solution = "solution_zipper.cli:main"
