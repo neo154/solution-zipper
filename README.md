@@ -35,7 +35,7 @@ Solution data zipped
 There are other options to help not store super large blobs that shouldn't be pushed to github or even just exlude certain names.
 
 ```sh
-solution_zipper --help
+zip_solution --help
 usage: solution_zipper [-h] [--password PASSWORD] [--max_file_size MAX_FILE_SIZE] [--remove_stored_files] solution_dir
 
 positional arguments:
