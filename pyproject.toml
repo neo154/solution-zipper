@@ -9,7 +9,7 @@ authors = [
   {name = "neo154"}
 ]
 requires-python = ">= 3.12"
-dependencies = ['pyzipper==0.3.6']
+dependencies = ['pyzipper==0.3.6', 'GitPython==3.1.44']
 description = "Simple solution zipper for challenges"
 license.text = "MIT"
 classifiers = [
