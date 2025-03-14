@@ -5,6 +5,7 @@ Contains the variables and functions for creating zips for solution files
 
 __author__ = "neo154"
 __version__ = '0.1.0'
+__all__ = ['create_zip_file']
 
 import os
 import secrets
